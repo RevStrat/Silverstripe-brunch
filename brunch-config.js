@@ -13,7 +13,11 @@ exports.plugins = {
   babel: {presets: ['latest']},
   sass: {
     options: {
-        includePaths: ['node_modules/susy/sass/', 'node_modules/breakpoint-sass/stylesheets/', 'node_modules/slick-carousel/slick/']
+        includePaths: [
+          'node_modules/susy/sass/', 
+          'node_modules/breakpoint-sass/stylesheets/', 
+          'node_modules/slick-carousel/slick/'
+        ]
     }
   }
 };

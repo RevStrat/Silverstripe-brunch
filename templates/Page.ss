@@ -14,5 +14,6 @@
     $Layout
     <script src="$ThemeDir/public/js/vendor.js"></script>
     <script src="$ThemeDir/public/js/app.js"></script>
+    <% include Analytics %>
   </body>
 </html>

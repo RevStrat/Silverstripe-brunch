@@ -1,0 +1,14 @@
+@import 'susy';
+@import 'breakpoint';
+@import 'slick.scss';
+
+.brunch {
+  font-family: -apple-system, Sans-Serif;
+  text-align: center;
+  font-size: 24pt;
+  color: #3f894a;
+  @include container(20rem);
+  @include breakpoint(768px) {
+    @include container(50rem);
+  }
+}
